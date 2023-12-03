@@ -1,7 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+
 :root{
   --roboto: 'Roboto';
   --raleway: 'Raleway';
@@ -11,29 +8,11 @@
   --IRIS: #4d5ae5;
 }
 
-body{
-font-family: var(--roboto);
-  background: var(--WHITE);
-}
-
-
-.webstudio{
-  color: var(--IRIS, #4D5AE5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.webstudio,
-.link {
-  text-decoration: none;
-}
-
-.studio-logo {
-  color: var(--NAVY-BLUE);
+.main-header{
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+  background-color: var(--WHITE);
 }
 
