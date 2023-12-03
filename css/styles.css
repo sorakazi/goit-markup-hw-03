@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --roboto: 'Roboto';
+  --raleway: 'Raleway';
+  --WHITE: #ffffff;
+  --NAVY-BLUE: #2e2f42;
+  --cornflower: #e7e9fc;
+  --IRIS: #4d5ae5;
+}
+
+body{
+font-family: var(--roboto);
+  background: var(--WHITE);
+}
+
+
+.webstudio{
+  color: var(--IRIS, #4D5AE5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.webstudio,
+.link {
+  text-decoration: none;
+}
+
+.studio-logo {
+  color: var(--NAVY-BLUE);
+}
+
